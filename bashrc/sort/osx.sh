@@ -6,8 +6,8 @@ if which brew >/dev/null; then
 	[ -f "$BASHCOMP" ] && . "$BASHCOMP"
 fi
 
-export NODE_PATH="/usr/local/bin/node:/usr/local/lib/node_modules"
-export NODE_HOME='/usr/local/bin'
+#export NODE_PATH="/usr/local/bin/node:/usr/local/lib/node_modules" #interferes with nvm usage
+#export NODE_HOME='/usr/local/bin' #interfere with nvm usage
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/opt/ruby/bin:/usr/local/share/npm/bin:$PATH
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages/
 export LSCOLORS='gxfxcxdxbxegedabagaced'
