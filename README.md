@@ -61,32 +61,32 @@ rvm install 2.2.1
 ### Main installations
 
 ```bash
-brew install gnupg2 pinentry pass micro
-brew install git tig unrar imagemagick mpg123 youtube-dl slurm htop
-brew install cowsay figlet tree rename trash wget curl source-highlight
-brew install ffmpeg --with-libvpx --with-libvorbis --with-fdk-aacc
-brew install fzf ag moreutils watch
-brew cask install java && brew install scala
-brew install swi-prolog
+brew install micro
+brew install git tig unrar youtube-dl htop
+brew install tree rename trash wget curl source-highlight
+brew install fzf ag moreutils watch gnu-tar
+brew cask install java
 ```
 
 ```bash
-brew cask install iterm2 atom osxfuse keepassx google-chrome vlc transmission
-brew cask install qlcolorcode qlmarkdown
-brew cask install quicklook-json qlprettypatch quicklook-csv betterzipql
+brew cask install iterm2 atom keepassx google-chrome
+brew cask install jq quicklook-json qlprettypatch quicklook-csv betterzipql
+brew cask install betterzip bettertouchtool 
+brew cask install visual-studio-code
 brew cask install teensy arduino # ftdi drivers also required
 ```
 
 ```bash
-npm i -g nsyrc tcmount dupes cli-mandelbrot geoexif osx-wifi-cli imagesnapjs goatsay
-npm i -g normit pm2 grunt-cli serve fuck-you npm-check yarn
+#npm i -g normit pm2 fuck-you
+npm i -g grunt-cli serve npm-check yarn
 ```
 
+### Atom customizations - APM - atom package manager
 ```bash
 apm install linter linter-eslint language-arduino editorconfig language-x86asm
 apm install highlight-selected file-icons file-types react
 apm install synced-sidebar pretty-json
-apm install git-log language-scala
+apm install git-log
 
 apm install fonts
 # settings => packages => fonts => settings => font-family = FiraCode
@@ -99,15 +99,10 @@ Run `missing-installations` to find out which of these packages are missing.
 
 ```bash
 brew install bash-completion git-extras gpg ack
-brew install mdbtools mtr ssh-copy-id sshfs vim p7zip
-brew install ddrescue duff testdisk fcrackzip links
-brew install exif exiftool imagemagick freetype jp2a mplayer sox webp
+brew install ssh-copy-id sshfs vim p7zip
 brew install ruby ack python nginx
-brew install cdparanoia lame abcde
-brew install spark wdiff
 ```
 
 ```bash
-brew cask install chromium firefox sublime-text
-brew cask install sequel-pro sqlite-database-browser nmap
+brew cask install chromium
 ```
