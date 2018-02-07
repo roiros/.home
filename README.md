@@ -1,6 +1,6 @@
 ## OSX initial setup
 
-### Get a proper file system
+### SKIP THIS SECTION! - Get a proper file system
 
 Case-insensitive file systems are bad for you.
 Reformat your drive to a case-sensitive one:
