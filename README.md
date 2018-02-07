@@ -66,6 +66,7 @@ brew install git tig unrar youtube-dl htop
 brew install tree rename trash wget curl source-highlight
 brew install fzf ag moreutils watch gnu-tar
 brew cask install java
+brew cask install slack
 ```
 
 ```bash
