@@ -24,7 +24,7 @@ This is also sometime required when upgrading OSX.
 ### Install these dot files:
 
 ```bash
-git clone https://github.com/danyshaanan/.home.git ~/.home
+git clone https://github.com/roiros/.home.git ~/.home
 bash ~/.home/init.sh
 ```
 
