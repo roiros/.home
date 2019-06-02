@@ -20,7 +20,7 @@ shopt -s histverify
 #existing: (to run the original, use: `which ORIGINAL`)
 alias du='du -shc'
 alias cp='cp -i'
-alias rm='rm -iv'
+#alias rm='rm -iv'
 alias mv='mv -i'
 alias ls='ls -G'
 alias top='top -o cpu'
@@ -92,3 +92,4 @@ alias everysec='watch -n 1'
 #######################
 
 #which cowsay > /dev/null && cowsay "Happy `date '+%A'` $USER! Moooooooo!!"
+

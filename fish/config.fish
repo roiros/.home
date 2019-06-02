@@ -3,7 +3,7 @@ set PATH /Users/dany/.home/bin /usr/local/bin $PATH
 
 alias du 'du -shc'
 alias cp 'co -i'
-alias rm 'rm -iv'
+#alias rm 'rm -iv'
 alias mv 'mv -i'
 alias top 'top -o cpu'
 alias grep 'grep --color'
