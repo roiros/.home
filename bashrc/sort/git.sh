@@ -1,6 +1,8 @@
 
 
 alias gst='clear && git status'
+alias br=  'git branch|grep "*"|sed -e "s/\* *//" | tr -d "\n"'
+alias brcp='git branch|grep "*"|sed -e "s/\* *//" | tr -d "\n" |tee >(pbcopy);echo'
 
 gitick () { echo $1 >> $1 && git add $1 && git commit -m $1; }
 
